@@ -3,10 +3,10 @@
 Why it is: Prevents external code from directly accessing internal state, reducing bugs
 When it's used: When you need data protection and controlled access
 */
-// With ordinary functions
+// With ordinary functions(means using closures)
 
 
 
-// With getters and setters
+// With getters and setters (using get and set functions)
 
 
