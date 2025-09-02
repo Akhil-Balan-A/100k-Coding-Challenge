@@ -259,7 +259,7 @@ class User {
         this.score = 0;
     }
     static checkFunction() {
-        console.log("This is a static method. You can't access a static method from an instance because static methods belong to the class itself, not to the objects (instances) created from that class. They are part of the class's blueprint but not part of the individual objects. ");
+        console.log("This is a static method.   t to the objects (instances) created from that class. They are part of the class's blueprint but not part of the individual objects. ");
     }
 }
 User.checkFunction();
@@ -426,6 +426,14 @@ console.log(person1);
 person1.userInfo();
 
  */
+
+
+
+const arr = [];
+const proto1 = Object.getPrototypeOf(arr)
+console.log(proto1===Array.prototype);// true
+const proto2 = Object.getPrototypeOf(proto1)
+console.log(proto2===Object.prototype);//true
 
 
 
